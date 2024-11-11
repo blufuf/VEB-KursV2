@@ -1,0 +1,60 @@
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    border-radius: 15px;
+}
+  
+aside form {
+    border: dashed 2px #07b148;
+    padding: 10px;
+    border-radius: 15px;
+}
+  
+form h2 {
+    border-bottom: 3px solid #07b148;
+    margin-top: 10px;
+}
+  
+label {
+    margin: 10px 0;
+}
+  
+input, textarea {
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: solid 2px #40493B;
+    resize: vertical;
+}
+  
+textarea {
+    border: 2px solid #40493B;
+
+}
+  
+button {
+    background: #006b09;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+  
+button:hover {
+    background: #07b148;
+}
+  
+form ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+  
+form li {
+    margin-bottom: 5px;
+}
+  

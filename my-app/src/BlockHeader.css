@@ -1,0 +1,10 @@
+.block-header {
+    background: #006b09;
+    color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 5px #07b148;
+    font-size: 30px;
+    display: flex;
+}
+  

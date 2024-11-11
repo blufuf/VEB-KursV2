@@ -1,0 +1,45 @@
+.posts {
+    flex: 3;
+    margin-right: 20px;
+    border: dashed 2px #07b148;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+}
+  
+.posts h2 {
+    margin-top: 10px;
+    border-bottom: 3px solid #07b148;
+}
+  
+.posts article {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: none;
+}
+  
+.posts article h1 {
+    color: black;
+}
+  
+.posts article button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+  
+.posts article .delete {
+    background-color: #cf3a15;
+    color: white;
+    margin-right: 10px;
+}
+  
+.posts article .archive {
+    background-color: #A3AE9E;
+    color: white;
+    margin-right: 10px;
+}
+  
